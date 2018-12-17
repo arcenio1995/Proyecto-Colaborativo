@@ -12,6 +12,8 @@ public class Arreglos {
         "mayo","junio","julio","agosto","septiembre",
         "octubre","noviembre","diciembre"};
     static String dias[]={"lunes","martes","miercoles","jueves","viernes","sábado","domingo"};
+    
+    
    public static String[] mesesAnio(){
        return meses;
    } 
@@ -26,7 +28,10 @@ public static String[] randomicos(){
         array[i]=String.valueOf(Math.random()*100);
     }
     return array;
-}    
+}
+
+
+
     
 
 }
